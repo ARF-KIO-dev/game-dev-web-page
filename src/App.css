@@ -1,0 +1,109 @@
+/* PAGE */
+
+body {
+  background-color: rgb(55, 59, 58);
+}
+
+
+/* ---------------- */
+/* Navbar Component */
+/* ---------------- */
+
+nav {
+
+  height: 64px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.33);
+  background-color: white;
+
+}
+
+nav > h1 {
+  margin: auto;
+  margin-left: 0;
+}
+
+nav > img {
+  margin-left: auto;
+}
+
+/* ------------------ */
+/*    game screen     */
+/* ------------------ */
+
+.game-screen {
+  color: black;
+  text-align: center;
+  padding-bottom: 64px;
+  max-width: 640px;
+  margin: auto;
+
+}
+
+/* ------------------ */
+/* game + art cards!  */
+/* ------------------ */
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 24px;
+  overflow-x: auto;
+
+}
+
+.card {
+  background-color: rgb(39, 39, 39);
+  border-radius: 16px;
+  padding: 8px;
+}
+
+.card > img {
+  width: 320px;
+}
+
+
+.card-titles {
+  color: white;
+  font-family: "Pixelify Sans", sans-serif;
+  text-align: center;
+}
+
+.card-titles > h1 {
+  font-size: x-large;
+}
+.card-titles > h2 {
+  font-size: small;
+  color: rgb(199, 191, 191);
+}
+
+.card-sub {
+  display:grid
+}
+
+.card-button {
+  border-radius: 8px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: xx-large;
+  height: 64px
+}
+
+
+
+
+/* FONTS */
+
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pixelify-sans-header {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
